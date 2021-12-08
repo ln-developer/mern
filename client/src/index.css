@@ -1,0 +1,26 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.amber-input:focus {
+  border-bottom: 1px solid #ffca28 !important;
+  box-shadow: 0 1px 0 0 #ffca28 !important;
+  color: #ffca28 !important;
+}
+
+input {
+  color: #fff !important;
+}
+
+.create-input {
+  color: black !important;
+}
+.create-input:focus {
+  border-bottom: 1px solid #ffca28 !important;
+  box-shadow: 0 1px 0 0 #ffca28 !important;
+}
+.create-input:focus + label {
+  color: #ffca28 !important;
+}
+
+input.amber-input:focus + label {
+  color: #ffca28 !important;
+}
